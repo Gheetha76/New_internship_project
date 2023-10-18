@@ -1,7 +1,10 @@
 from behave import given, when, then
 from time import sleep
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
+
+# FREE_SUBSCRIPTION = (By.XPATH, "// div[@class='get-free-period menu']")
 FOUR_STEPS_CONNECT_COMPANY = (By.CSS_SELECTOR, '.step-text')
 
 @given('Open the login page')

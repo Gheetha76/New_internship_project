@@ -14,7 +14,7 @@ class MainWebPage(Page):
 
 
     def click_subscription(self):
-          self.click(*self.GET_FREE_SUBSCRIPTION)
+          self.wait_for_element_clickable_click(*self.GET_FREE_SUBSCRIPTION)
           sleep(3)
 
 
