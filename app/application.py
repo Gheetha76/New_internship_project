@@ -13,7 +13,7 @@ from pages.free_subscription_page import SubscriptionPage
 
 class Application:
 
-    def __init__(self, driver):
+    def __init__(self, driver: object) -> object:
         # self.best_seller_page = Bestsellerpage(driver)
         # self.blog = Blog(driver)
         # self.main_page = MainPage(driver)
